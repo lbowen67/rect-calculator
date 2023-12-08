@@ -3,6 +3,10 @@ html {
   width: 100%;
 }
 
+body {
+  background-color: lightgray;
+}
+
 * {
   text-align: center;
 }
