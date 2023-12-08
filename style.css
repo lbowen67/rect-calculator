@@ -11,6 +11,12 @@ body {
   text-align: center;
 }
 
+div {
+  background-color: white;
+  width: 900px;
+  margin: auto;
+}
+
 p, button, input {
   font-size: 18pt;
 }
