@@ -15,6 +15,10 @@ document.getElementById("buttonCalculate").onclick = function() {
     document.getElementById("labelDiagonal").innerHTML = diagonal.toFixed(2);
     document.getElementById("labelPerimeter").innerHTML = perimeter.toFixed(2);
     document.getElementById("labelArea").innerHTML = area.toFixed(2);
+    document.getElementById("labelDiagonal").style.backgroundColor = "blue";
+    document.getElementById("labelPerimeter").style.backgroundColor = "blue";
+    document.getElementById("labelArea").style.backgroundColor = "blue";
+
 }
 
 document.getElementById("buttonClear").onclick = function() {
@@ -23,4 +27,7 @@ document.getElementById("buttonClear").onclick = function() {
     document.getElementById("labelDiagonal").innerHTML = "";
     document.getElementById("labelPerimeter").innerHTML = "";
     document.getElementById("labelArea").innerHTML = "";
+    document.getElementById("labelDiagonal").style.backgroundColor = "white";
+    document.getElementById("labelPerimeter").style.backgroundColor = "white";
+    document.getElementById("labelArea").style.backgroundColor = "white";
 }

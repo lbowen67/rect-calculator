@@ -29,6 +29,6 @@ input {
 
 #labelDiagonal, #labelPerimeter, #labelArea {
   color: yellow;
-  background-color: blue;
+  background-color: white;
   padding: 5px;
 }
