@@ -24,3 +24,7 @@ p, button, input {
 input {
   width: 100px;
 }
+
+.labelDiagonal {
+  color: red;
+}
