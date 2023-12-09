@@ -15,8 +15,8 @@ div {
   background-color: white;
   width: 900px;
   margin: auto;
-  height: 100vh;
-  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 p, button, input {
